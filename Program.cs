@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Gamaliel Tchakoumegne Tchoukio
+//Rémy Vanexe
+
+using TP2.Presentation;
+
+Presentation presentation = new Presentation();
+
+presentation.AfficherCriminels();
+presentation.AfficherCriminelRecherche();
