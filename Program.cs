@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TP2.Presentation;
+
+Presentation presentation = new Presentation();
+
+presentation.AjoutCriminel();
